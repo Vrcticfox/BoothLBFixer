@@ -15,7 +15,7 @@
 
     const fixLineBreaks = () => {
         // 찾을 요소. 모바일/PC 환경, 메인도메인/개인샵 서브도메인별로 위치가 다르기 때문.
-        const descriptionTags = document.querySelectorAll('.description p, .description span');
+        const descriptionTags = document.querySelectorAll('.description p, .description span, .shop__text p');
 
         descriptionTags.forEach(function (descriptionTag) {
             if (descriptionTag && !descriptionTag.dataset.brFixed) {
