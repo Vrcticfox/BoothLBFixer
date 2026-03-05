@@ -1,9 +1,3 @@
 # BoothLBFixer
 
-| ![Raw](image/raw.png) | ![Origin](image/origin.png) | ![Fixed](image/fixed.png) |
-| :---: | :---: | :---: |
-| Raw | Before | After |
-
-Booth 에서 자동번역 사용 시 줄바꿈 난리나는 것 방지<br>(설명란의 내용을 `\n` 기준으로 나눈 뒤 `<div>`로 감쌈)
-
-사용에 tampermonkey같은 유저스크립트 확장프로그램 필요
+Booth에서의 상품 판매페이지 / Contact 창에서의 자동번역 시 줄바꿈 문제를 방지하는 유저스크립트.
